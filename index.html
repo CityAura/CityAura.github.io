@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of a Senior Software Engineer, Agentic AI & AI Prompt Engineer with 20+ years in Frontend Web Development & UX/UI Design." />
+  <title>Portfolio | Software Engineer & Agentic AI Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="static/css/style.css"/>
+  <script src="script1.js"defer></script>
+</head>
+<body>
+  <!-- Ambient Background Orbs -->
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar glass">      
+    <div class="container nav-container">        
+      <a href="#home" class="brand">
+        <span class="brand-dot"></span>    
+        <img src="static/images/logo.png" alt="logo">
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary Navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Credentials</a>
+        <a href="templates/cityaura.html">City Aura</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark and light theme" title="Switch Theme">
+          <span class="theme-icon" id="themeIcon">☀️</span>
+        </button>
+        <button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle Menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill glass">
+            <span class="pulse"></span>
+            <span>Available for Agentic AI & Engineering Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="eyebrow"></span> BIGTOWN MEMELA<span>
+              <div></div>
+            <div class="gradient-text"> Agentic AI</span> AI Prompt Engineer
+          </h1>
+
+          <p class="hero-subtitle">
+            Bridging <strong>20+ years of Frontend Architecture &amp; UX/UI Design</strong> with autonomous AI workflows, precision prompt engineering, and scalable Python systems.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="assets/resume.pdf" download class="btn btn-glass" id="downloadCvBtn">
+              Download CV ↓
+            </a>
+          </div>
+
+          <!-- Follow All Social Placeholder Links -->
+          <div class="follow-all">
+            <span class="follow-label">Follow All:</span>
+            <div class="social-links">
+              <a href="#" class="social-pill" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+              <a href="https://www.linkedin.com/in/mbigtown" class="social-pill" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener" aria-label="Amazon KDP Author Page">https://x.com/BigtownM7903</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener" aria-label="Portfolio / Dribbble">Dribbble</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Circular Avatar + Transparent Cutout Integrated into Background -->
+        <div class="hero-visual reveal">
+          <div class="avatar-composite">
+            <div class="avatar-ring"></div>
+            <div class="avatar-circle glass">
+              <img src="static/images/imgpjtc.png">
+            </div>
+            </dv>
+
+              <span></span>
+            </div>
+            <div class="floating-badge badge-bottom glass">
+              <strong>i'm creative minded, innovative,
+                       and passionate to contribute value.
+              </strong>
+              <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Philosophy -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01 // OVERVIEW</span>
+          <h2>Timeless Craft Meets Autonomous Intelligence</h2>
+        </div>
+
+        <div class="stats-grid reveal">
+          <div class="stat-card glass">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years in Frontend &amp; UX/UI Design</span>
+          </div>
+          <div class="stat-card glass">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years Core Software Engineering</span>
+          </div>
+          <div class="stat-card glass">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Industry &amp; AI Certifications</span>
+          </div>
+          <div class="stat-card glass">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Human-Centered AI Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Ecosystem -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02 // CAPABILITIES</span>
+          <h2>Technical Stack &amp; AI Ecosystem</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <h3>Agentic AI &amp; Prompt Engineering</h3>
+            <p>Designing deterministic prompts, multi-step autonomous agent pipelines, and LLM evaluation workflows.</p>
+            <div class="tag-cloud">
+              <span class="tag">OpenAI</span>
+              <span class="tag">Claude</span>
+              <span class="tag">Agentic Workflows</span>
+              <span class="tag">Prompt Architecture</span>
+              <span class="tag">ITF AI Level 3</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3>Frontend &amp; UX/UI Engineering</h3>
+            <p>Two decades crafting accessible, responsive, high-conversion interfaces with clean semantic architecture.</p>
+            <div class="tag-cloud">
+              <span class="tag">HTML5</span>
+              <span class="tag">Traditional CSS3</span>
+              <span class="tag">Vanilla JavaScript</span>
+              <span class="tag">UX/UI Systems</span>
+              <span class="tag">Design Thinking</span>
+            </div>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <h3>Backend, Publishing &amp; Collaboration</h3>
+            <p>Building reliable calculation engines, open-source repositories, and digital publishing pipelines.</p>
+            <div class="tag-cloud">
+              <span class="tag">Python 3</span>
+              <span class="tag">Python Community</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Amazon KDP</span>
+              <span class="tag">Agile Delivery</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accomplished Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03 // ACCOMPLISHED WORK</span>
+          <h2>Featured Engineering Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Age Calculator -->
+          <article class="project-card glass reveal">
+            <div class="project-top">
+              <span class="project-badge">Python 3 Utility</span>
+              <a href="#" class="repo-link" target="_blank" rel="noopener">GitHub Repo ↗</a>
+            </div>
+            <h3>Precision Age Calculator</h3>
+            <p>
+              A high-accuracy Python application engineered to compute an individual's exact chronological age across leap years, outputting precise years, months, and days with zero date-drift errors.
+            </p>
+            <div class="tag-cloud">
+              <span class="tag">Python</span>
+              <span class="tag">Datetime Logic</span>
+              <span class="tag">Input Validation</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-glass btn-sm" data-demo="age">Test Interactive Simulator</button>
+            </div>
+          </article>
+
+          <!-- Project 2: Loan & Mortgage Calculator -->
+          <article class="project-card glass reveal">
+            <div class="project-top">
+              <span class="project-badge">FinTech / Python 3</span>
+              <a href="#" class="repo-link" target="_blank" rel="noopener">GitHub Repo ↗</a>
+            </div>
+            <h3>Loan &amp; Mortgage Repayment Calculator</h3>
+            <p>
+              A comprehensive Python financial calculator that determines eligible mortgage/loan amounts, calculates exact installment amounts to be paid, and tracks remaining account balances after repayment.
+            </p>
+            <div class="tag-cloud">
+              <span class="tag">Python</span>
+              <span class="tag">Financial Modeling</span>
+              <span class="tag">Amortization</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-glass btn-sm" data-demo="loan">Test Interactive Simulator</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Education -->
+    <section id="credentials" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04 // CREDENTIALS</span>
+          <h2>Certifications &amp; Education</h2>
+        </div>
+
+        <div class="credentials-grid">
+          <!-- Certifications -->
+          <div class="cred-column glass reveal">
+            <h3>Professional Certifications</h3>
+            <ul class="timeline-list">
+              <li class="timeline-item highlight-item">
+                <span class="badge-status">In View</span>
+                <h4>ITF – AI Level 3 Engineer / Specialist</h4>
+                <p>Industrial Training Fund (ITF) — Advanced Artificial Intelligence</p>
+              </li>
+              <li class="timeline-item">
+                <h4>DTA Agentic AI Engineer</h4>
+                <p>Autonomous Agents &amp; Prompt Systems Engineering</p>
+              </li>
+              <li class="timeline-item">
+                <h4>Python 3 Certification</h4>
+                <p>Core Python Programming, Data Structures &amp; Scripting</p>
+              </li>
+              <li class="timeline-item">
+                <h4>Agile Certification</h4>
+                <p>Iterative Software Delivery &amp; Cross-Functional Leadership</p>
+              </li>
+              <li class="timeline-item">
+                <h4>HRM Certification</h4>
+                <p>Human Resource Management &amp; Organizational Leadership</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Education & Experience -->
+          <div class="cred-column glass reveal">
+            <h3>Education &amp; Career Milestones</h3>
+            <ul class="timeline-list">
+              <li class="timeline-item">
+                <span class="year-pill">2022</span>
+                <h4>Bachelor's Degree</h4>
+                <p>Completed formal undergraduate degree program with focus on computing and management systems.</p>
+              </li>
+              <li class="timeline-item">
+                <span class="year-pill">2+ Years</span>
+                <h4>Agentic Ai Practice</h4>
+                <p>Architecting Python applications and automation tools.</p>
+              </li>
+              <li class="timeline-item">
+                <span class="year-pill">3+ Years</span>
+                <h4>Frontend Web Development &amp; UX/UI</h4>
+                <p>Two decades designing responsive web interfaces, digital products, and accessible user journeys.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info glass reveal">
+          <span class="section-tag">05 // CONNECT</span>
+          <h2>Let's Build Something Intelligent</h2>
+          <p>
+            Available for consulting, Agentic AI engineering, frontend architecture, and collaborative builds.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:bigtownmemela@gmail.com">bigtownmemela@gmail.com</a>
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+2349056899032">09056899032</a>
+            </li>
+            <li>
+              <strong>WhatsApp:</strong>
+              <a href="https://wa.me/23490791916872" target="_blank" rel="noopener">090791916872</a>
+            </li>
+            <li>
+              <strong>Location:</strong>
+              <span>Port Harcourt, Rivers State, Nigeria</span>
+            </li>
+          </ul>
+
+          <div class="follow-all">
+            <span class="follow-label">Follow All Profiles:</span>
+            <div class="social-links">
+              <a href="#" class="social-pill" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener">X / Twitter</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener">Amazon KDP</a>
+              <a href="#" class="social-pill" target="_blank" rel="noopener">YouTube</a>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form glass reveal" novalidate>
+          <h3>Send a Direct Message</h3>
+          <div class="form-group">
+            <label for="senderName">Your Name</label>
+            <input type="text" id="senderName" name="name" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="senderEmail">Your Email</label>
+            <input type="email" id="senderEmail" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="senderMessage">Project or Inquiry Details</label>
+            <textarea id="senderMessage" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+          <p id="formFeedback" class="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> Software Engineer &amp; Agentic AI Specialist. Port Harcourt, Nigeria.</p>
+      <a href="#home" class="back-to-top">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Interactive Python Project Demo Modal -->
+  <div id="demoModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-box glass">
+      <div class="modal-header">
+        <h3 id="modalTitle">Project Simulator</h3>
+        <button id="closeModal" class="icon-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+  // 1. Dynamic Footer Year
+  const yearEl = document.getElementById('currentYear');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // 2. Theme Toggle (Dark Futuristic <-> Light Minimalist Glass)
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const themeIcon = document.getElementById('themeIcon');
+
+  const savedTheme = localStorage.getItem('portfolio-theme') || 'dark';
+  applyTheme(savedTheme);
+
+  themeToggle.addEventListener('click', () => {
+    const nextTheme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme);
+    localStorage.setItem('portfolio-theme', nextTheme);
+  });
+
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+  }
+
+  // 3. Mobile Navigation Toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  menuToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('active');
+    menuToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // 4. Scroll Reveal Observer
+  const revealObserver = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+  // 5. Local Contact Form Handler
+  const contactForm = document.getElementById('contactForm');
+  const formFeedback = document.getElementById('formFeedback');
+
+  contactForm.addEventListener('submit', event => {
+    event.preventDefault();
+    const name = document.getElementById('senderName').value.trim();
+    const email = document.getElementById('senderEmail').value.trim();
+    const message = document.getElementById('senderMessage').value.trim();
+
+    if (!name || !email || !message) {
+      formFeedback.style.color = '#f87171';
+      formFeedback.textContent = 'Please complete all fields before sending.';
+      return;
+    }
+
+    // Store submission locally in sessionStorage & offer direct mailto trigger
+    const submissions = JSON.parse(localStorage.getItem('portfolio-inquiries') || '[]');
+    submissions.push({ name, email, message, date: new Date().toISOString() });
+    localStorage.setItem('portfolio-inquiries', JSON.stringify(submissions));
+
+    formFeedback.style.color = '#10b981';
+    formFeedback.innerHTML = `Thank you, <strong>${escapeHtml(name)}</strong>! Your message has been logged locally. <a href="mailto:bigtownmemela@gmail.com?subject=Portfolio%20Inquiry%20from%20${encodeURIComponent(name)}&body=${encodeURIComponent(message)}" style="color:inherit;text-decoration:underline;">Click here to launch your email client</a>.`;
+    contactForm.reset();
+  });
+
+  // 6. Interactive Python Project Simulators (Age & Loan/Mortgage Calculators)
+  const modal = document.getElementById('demoModal');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalBody = document.getElementById('modalBody');
+  const closeModal = document.getElementById('closeModal');
+  const modalBackdrop = document.getElementById('modalBackdrop');
+
+  document.querySelectorAll('[data-demo]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.getAttribute('data-demo');
+      openDemo(type);
+    });
+  });
+
+  function openDemo(type) {
+    if (type === 'age') {
+      modalTitle.textContent = 'Python Age Calculator — Web Preview';
+      modalBody.innerHTML = `
+        <div class="form-group">
+          <label for="dobInput">Select Date of Birth:</label>
+          <input type="date" id="dobInput" />
+        </div>
+        <button id="calcAgeBtn" class="btn btn-primary full-width">Calculate Exact Age</button>
+        <div id="ageOutput" class="sim-result" style="display:none;"></div>
+      `;
+      document.getElementById('calcAgeBtn').addEventListener('click', calculateExactAge);
+    } else if (type === 'loan') {
+      modalTitle.textContent = 'Loan & Mortgage Calculator — Web Preview';
+      modalBody.innerHTML = `
+        <div class="form-group">
+          <label for="incomeInput">Monthly Income (₦):</label>
+          <input type="number" id="incomeInput" placeholder="e.g. 500000" />
+        </div>
+        <div class="form-group">
+          <label for="loanAmountInput">Requested Loan / Mortgage Amount (₦):</label>
+          <input type="number" id="loanAmountInput" placeholder="e.g. 2000000" />
+        </div>
+        <div class="form-group">
+          <label for="monthsInput">Repayment Duration (Months):</label>
+          <input type="number" id="monthsInput" value="12" min="1" />
+        </div>
+        <div class="form-group">
+          <label for="paidInput">Amount Already Paid (₦):</label>
+          <input type="number" id="paidInput" value="0" min="0" />
+        </div>
+        <button id="calcLoanBtn" class="btn btn-primary full-width">Compute Loan & Balance</button>
+        <div id="loanOutput" class="sim-result" style="display:none;"></div>
+      `;
+      document.getElementById('calcLoanBtn').addEventListener('click', calculateLoanDetails);
+    }
+
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+  }
+
+  function calculateExactAge() {
+    const dobVal = document.getElementById('dobInput').value;
+    const output = document.getElementById('ageOutput');
+    if (!dobVal) return;
+
+    const dob = new Date(dobVal);
+    const today = new Date();
+    if (dob > today) {
+      output.style.display = 'block';
+      output.textContent = 'Date of birth cannot be in the future.';
+      return;
+    }
+
+    let years = today.getFullYear() - dob.getFullYear();
+    let months = today.getMonth() - dob.getMonth();
+    let days = today.getDate() - dob.getDate();
+
+    if (days < 0) {
+      months -= 1;
+      const prevMonthDays = new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+      days += prevMonthDays;
+    }
+    if (months < 0) {
+      years -= 1;
+      months += 12;
+    }
+
+    output.style.display = 'block';
+    output.innerHTML = `<strong>Exact Age:</strong> ${years} Years, ${months} Months, and ${days} Days.`;
+  }
+
+  function calculateLoanDetails() {
+    const income = parseFloat(document.getElementById('incomeInput').value) || 0;
+    const principal = parseFloat(document.getElementById('loanAmountInput').value) || 0;
+    const months = parseInt(document.getElementById('monthsInput').value, 10) || 1;
+    const alreadyPaid = parseFloat(document.getElementById('paidInput').value) || 0;
+    const output = document.getElementById('loanOutput');
+
+    const maxEligibleMortgage = income * 0.4 * months;
+    const annualRate = 0.12; // 12% standard annual rate
+    const totalPayable = principal * (1 + annualRate * (months / 12));
+    const monthlyInstallment = totalPayable / months;
+    const remainingBalance = Math.max(0, totalPayable - alreadyPaid);
+
+    output.style.display = 'block';
+    output.innerHTML = `
+      <div><strong>Max Eligible Mortgage Capacity:</strong> ₦${maxEligibleMortgage.toLocaleString()}</div>
+      <div><strong>Total Amount to Be Paid:</strong> ₦${totalPayable.toLocaleString(undefined, { maximumFractionDigits: 2 })}</div>
+      <div><strong>Monthly Installment:</strong> ₦${monthlyInstallment.toLocaleString(undefined, { maximumFractionDigits: 2 })}</div>
+      <div><strong>Remaining Account Balance After Payment:</strong> ₦${remainingBalance.toLocaleString(undefined, { maximumFractionDigits: 2 })}</div>
+    `;
+  }
+
+  function hideModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+  }
+
+  closeModal.addEventListener('click', hideModal);
+  modalBackdrop.addEventListener('click', hideModal);
+
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, m => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[m]));
+  }
+});
+
+  </script>
+</body>
+</html>
